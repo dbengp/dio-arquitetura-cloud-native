@@ -45,7 +45,7 @@
 
 ### Cenário de demonstração: fluxo de processamento de solicitações de um sistema de aluguel de carros ("RentACar"), utilizando serviços e padrões comuns de arquitetura distribuída e baseada em eventos.
 ![image](https://github.com/user-attachments/assets/b1e6b5d0-6721-47db-95bd-3c224985535f)
-- Aplicações em Cloud Computing (Azure) Elencando os Recursos dessa Arquitetura:
+- Aplicações em Cloud Computing (Azure) Elencando os Recursos dessa Arquitetura (terraform/main.tf):
   * HTTP (TrAlego Http) - Recurso Azure: Azure API Management ou Azure Application Gateway.
     * Aplicação: O API Management atua como um front-end unificado para todas as APIs da sua aplicação, permitindo a gestão de versões, segurança (OAuth, JWT), cache, monitoramento e transformação de payloads. O Application Gateway atua como um balanceador de carga de camada 7 e WAF (Web Application Firewall) para proteger as aplicações web de vulnerabilidades comuns.
   * DNS - Recurso Azure: Azure DNS.
